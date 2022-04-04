@@ -1,3 +1,9 @@
 .logo {
   font-family: "Cormorant Garamond", serif;
 }
+
+.select {
+  position: sticky;
+  z-index: 1;
+  top: 0px;
+}

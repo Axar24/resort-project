@@ -104,7 +104,7 @@
       </nav>
 
 <!--secondary nav-->  
-  <div class=" select">
+  <div class=" select d-none">
     <nav class="navbar navbar-expand-lg navbar-light bg-white  ">
         <div class="container-xxl">
           <a class="navbar-brand text-dark logo fw-bold" href="#"

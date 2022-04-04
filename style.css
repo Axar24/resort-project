@@ -7,3 +7,24 @@
   z-index: 1;
   top: 0px;
 }
+
+.welcome {
+  font-family: "Lavishly Yours", cursive;
+}
+
+.note {
+  font-family: "Cormorant Garamond", serif !important;
+  font-weight: bold;
+  color: gray;
+}
+
+div.card p {
+  font-family: "Cormorant Garamond", serif !important;
+  font-weight: bold;
+}
+
+.card-title {
+  font-family: "Cormorant Garamond", serif !important;
+  font-weight: bold;
+  font-size: 40px;
+}

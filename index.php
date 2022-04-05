@@ -1,5 +1,6 @@
 <?php
 
+require('add.php');
 
 ?>
 <!DOCTYPE html>
@@ -284,22 +285,22 @@
         
         <div class ="col col-lg-6 card1 mt-3 contact">
           <h3>We always listen your voice..</h3>
-         <form>
+         <form action ="index.php" method ="POST" id ="invalid" >
           <div class="input-group mb-3  w-75 ">
          <span class="input-group-text fw-bold border-2 " id="basic-addon1">Name</span>
-         <input type="text" class="form-control border-2" placeholder="" aria-label="Name" aria-describedby="basic-addon1">
+         <input type="text" class="form-control border-2" placeholder="" aria-label="Name" aria-describedby="basic-addon1" name="name" value="<?php echo $username ?>">
          </div>
-
-        <div class="input-group mb-3  w-75 ">
+ <div class = "text-danger mb-3 fw-bold"><?php echo $errors["username"];?></div>
+        <div class="input-group  w-75 ">
          <span class="input-group-text fw-bold border-2 " id="basic-addon1">Email:</span>
-         <input type="text" class="form-control border-2" placeholder="" aria-label="Email" aria-describedby="basic-addon1">
+         <input type="text" class="form-control border-2" placeholder="" aria-label="Email" aria-describedby="basic-addon1" name="email" value="<?php echo $email ?>">
          </div>
-
+<div class = "text-danger mb-3 fw-bold"><?php echo $errors["email"];?></div>
         <div class="input-group w-75">
          <span class="input-group-text border-2 fw-bold">Feedback</span>
-           <textarea class="form-control border-2 textarea" aria-label="Feedback"></textarea>
+           <textarea class="form-control border-2 textarea" aria-label="Feedback" name="feedback" value="<?php echo $feedback ?>"></textarea>
          </div>
-
+<div class = "text-danger mb-3 fw-bold"><?php echo $errors["feedback"];?></div>
          <button type="submit" name="submit" value="submit" class="btn btn-primary mt-3">Submit</button>
 
          </form>      
@@ -321,7 +322,7 @@
 
 
 
-
+<?php echo $sss ?>
 
 <script src="https://kit.fontawesome.com/912d856a22.js" crossorigin="anonymous"></script>
 <script src="sandbox.js"></script>
@@ -330,5 +331,11 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <!-- <script>
+      const form = document.querySelector("form");
+      form.addEventListener("submit", (e) => {
+  e.preventDefault();
+}); -->
+    </script>
 </body>
 </html>

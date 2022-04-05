@@ -62,3 +62,7 @@ div.card p {
 .contact {
   font-family: "Cormorant Garamond", serif !important;
 }
+
+.textarea {
+  resize: none;
+}

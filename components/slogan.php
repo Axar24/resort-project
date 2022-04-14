@@ -13,7 +13,7 @@
 
 
 
-<?php echo $sss ?>
+
 
 <script src="https://kit.fontawesome.com/912d856a22.js" crossorigin="anonymous"></script>
 <script src="sandbox.js"></script>

@@ -1,5 +1,5 @@
 <?php
-
+require('config/db_connect.php');
 require('add.php');
 
 ?>

@@ -44,11 +44,22 @@ if (!preg_match('/^[a-zA-Z0-9\s\.]+$/',$_POST['feedback'])){
 if(array_filter($errors)){
      $sss =  "<script>window.location.href='#invalid'</script>";
 }else{
-    header('Location:review.php');
+     
+    $username = mysqli_real_escape_string($conn,$_POST['name']);
+    $email = mysqli_real_escape_string($conn,$_POST['email']);
+    $feedback= mysqli_real_escape_string($conn,$_POST['feedback']);
+
+ $sql ="INSERT INTO reviews(username,email,feedback) VALUES('$username',' $email', '$feedback')";
+    
+ if(mysqli_query($conn,$sql))
+ {
+     header('Location:review.php');
+ }else
+ {
+      echo 'query error:' . mysqli_error($conn);
+ }
+ 
 }
-
-
-
 
 }
 

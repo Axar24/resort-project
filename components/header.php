@@ -24,7 +24,7 @@
  <!--nav-->
 <nav class="navbar navbar-expand-lg navbar-light bg-white  ">
       <div class="container-xxl">
-        <a class="navbar-brand text-dark logo fw-bold" href="#"
+        <a class="navbar-brand text-dark logo fw-bold" href="index.php"
               ><h1 class="ms-3">Mt.Resort</h1>
             </a>
             <button
@@ -47,7 +47,7 @@
                   <a class="nav-link" aria-current="page" href="#">Services</a>
                 </li>
                 <li class="nav-item mx-4 my-1">
-                  <a class="nav-link"  href="#">Reviews</a>
+                  <a class="nav-link"  href="#review">Reviews</a>
                 </li>
                 <li class="nav-item mx-4 my-1">
                   <a class="nav-link " href="#">Pricing</a>

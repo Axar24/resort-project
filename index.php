@@ -17,7 +17,7 @@ require('add.php');
 
 <?php require('components/footer.php');?>
 
-<?php echo $sss ?> //from add.php when form is invalid
+ <?php echo $sss ?>   
 
 <?php require('components/slogan.php');?>
 

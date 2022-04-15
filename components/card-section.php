@@ -19,12 +19,12 @@
                 <a href="#" class="btn btn-primary">More info</a>
               </div>
              </div>
-      <div class="card col col-lg-3 col-md-12 p-2 card3 " >
+      <div class="card col col-lg-3 col-md-12 p-2 card3 " id ="review" >
               <img src="img/" class="card-img-top  " height="280px">
-              <div class="card-body  ">
+              <div class="card-body">
                 <h5 class="card-title">Reviews</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolorem debitis aut, eum non earum atque?</p>
-                <a href="#" class="btn btn-primary">More info</a>
+                <a href="review.php" class="btn btn-primary">More info</a>
               </div>
              
         </div>

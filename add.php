@@ -2,7 +2,7 @@
 
 
 $username=$email=$feedback='';
-
+$sss=" ";
 $errors = array('username' => '', 'email' => '', 'feedback' => '');
 
 
@@ -44,7 +44,8 @@ if (!preg_match('/^[a-zA-Z0-9\s\.]+$/',$_POST['feedback'])){
 if(array_filter($errors)){
      $sss =  "<script>window.location.href='#invalid'</script>";
 }else{
-     
+     $sss=" ";
+
     $username = mysqli_real_escape_string($conn,$_POST['name']);
     $email = mysqli_real_escape_string($conn,$_POST['email']);
     $feedback= mysqli_real_escape_string($conn,$_POST['feedback']);

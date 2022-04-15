@@ -25,7 +25,7 @@
                     <a class="nav-link" aria-current="page" href="#">Services</a>
                   </li>
                   <li class="nav-item mx-4 my-1">
-                    <a class="nav-link  href="#">Reviews</a>
+                    <a class="nav-link"  href="#review">Reviews</a>
                   </li>
                   <li class="nav-item mx-4 my-1">
                     <a class="nav-link " href="#">Pricing</a>

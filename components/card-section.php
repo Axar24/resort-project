@@ -4,7 +4,7 @@
   <div class="row justify-content-around  oafa">
            
         <div class="card col  col-lg-3 col-md-12  p-2 card1" >
-              <img src="img/" class="card-img-top" height="280px">
+              <img src="img/room.jpg" class="card-img-top" height="280px">
               <div class="card-body">
                 <h5 class="card-title">Services</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore non, sunt earum molestias fuga repudiandae itaque..</p>
@@ -12,7 +12,7 @@
               </div>
              </div>
         <div class="card col  col-lg-3 col-md-12  p-2 card2" >
-              <img src="img/" class="card-img-top " height="280px">
+              <img src="img/man.avif" class="card-img-top " height="280px">
               <div class="card-body">
                 <h5 class="card-title">Activities</h5>
                 <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere veniam amet fugiat deserunt recusandae tenetur ab?</p>
@@ -20,7 +20,7 @@
               </div>
              </div>
       <div class="card col col-lg-3 col-md-12 p-2 card3 " id ="review" >
-              <img src="img/" class="card-img-top  " height="280px">
+              <img src="img/food.jpg" class="card-img-top  " height="280px">
               <div class="card-body">
                 <h5 class="card-title">Reviews</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolorem debitis aut, eum non earum atque?</p>

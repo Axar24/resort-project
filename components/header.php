@@ -19,6 +19,13 @@
       rel="stylesheet"
     />
     <title>Mt. Resort</title>
+    <style>
+      .dropmenu {
+  width: 90%;
+  margin-left: 65px;
+}
+
+    </style>
 </head>
 <body>
  <!--nav-->
